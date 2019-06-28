@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/stu"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/w"
+            android:title="Notice/Event" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/att"
+            android:title="My Attendance " />
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/marks"
+            android:title="My Marks" />
+
+
+        <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/timetable"
+                android:title="Time Table" />
+        <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/logout"
+                android:title="Logout" />
+
+
+</group>
+
+
+    </menu>
